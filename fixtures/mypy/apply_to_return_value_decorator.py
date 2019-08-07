@@ -2,7 +2,7 @@ from typing import (
     List,
     Tuple,
 )
-from eth_utils import (
+from vips_utils import (
     apply_to_return_value
 )
 

@@ -2,7 +2,7 @@ from typing import (
     List,
     Tuple
 )
-from eth_utils import (
+from vips_utils import (
     to_ordered_dict
 )
 

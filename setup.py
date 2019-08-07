@@ -41,7 +41,7 @@ extras_require['dev'] = (
 )
 
 setup(
-    name='eth-utils',
+    name='vips-utils',
     # *IMPORTANT*: Don't manually change the version here. Use the 'bumpversion' utility.
     version='1.6.4',
     description="""Common utility functions for ethereum codebases.""",

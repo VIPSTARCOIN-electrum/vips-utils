@@ -1,7 +1,7 @@
 from typing import (
     Tuple
 )
-from eth_utils import (
+from vips_utils import (
     to_list
 )
 

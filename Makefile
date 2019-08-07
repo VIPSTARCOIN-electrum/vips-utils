@@ -32,8 +32,8 @@ lint37:
 lint: lint36 lint37
 
 lint-roll:
-	isort --recursive eth_utils tests
-	black eth_utils tests
+	isort --recursive vips_utils tests
+	black vips_utils tests
 	$(MAKE) lint
 
 test:
