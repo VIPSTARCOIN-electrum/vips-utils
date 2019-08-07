@@ -98,5 +98,7 @@ if sys.version_info.major < 3:
     )
     warnings.resetwarnings()
 
-
-__version__ = pkg_resources.get_distribution("eth-utils").version
+try:
+    __version__ = pkg_resources.get_distribution("vips-utils").version
+except BaseException:
+    __version__ = '1.6.4'
