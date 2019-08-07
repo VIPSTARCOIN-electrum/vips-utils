@@ -48,10 +48,10 @@ setup(
     long_description_markdown_filename='README.md',
     author='Piper Merriam',
     author_email='pipermerriam@gmail.com',
-    url='https://github.com/ethereum/eth_utils',
+    url='https://github.com/VIPSTARCOIN-electrum/vips_utils',
     include_package_data=True,
     install_requires=[
-        "eth-hash>=0.1.0,<1.0.0",
+        "vips-hash>=0.1.0,<1.0.0",
         "eth-typing>=1.0.0,<3.0.0",
         "toolz>0.8.2,<1;implementation_name=='pypy'",
         "cytoolz>=0.8.2,<1.0.0;implementation_name=='cpython'",

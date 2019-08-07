@@ -1,5 +1,5 @@
 # flake8: noqa
-from eth_utils import (
+from vips_utils import (
     ExtendedDebugLogger,
     HasExtendedDebugLogger,
     HasExtendedDebugLoggerMeta,
@@ -76,7 +76,7 @@ from eth_utils import (
     to_tuple,
     to_wei,
 )
-from eth_utils.toolz import curry
+from vips_utils.toolz import curry
 
 apply_formatter_at_index = curry(apply_formatter_at_index)
 apply_formatter_if = curry(apply_formatter_if)
